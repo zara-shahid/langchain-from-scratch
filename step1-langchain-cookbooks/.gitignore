@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+langchain_env/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Distribution / packaging
+*.manifest
+*.spec
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ChromaDB local storage
+chroma_db/
+*.sqlite3
+
+# FAISS index files
+*.faiss
+*.index
+
+# Model cache (sentence-transformers downloads here)
+.cache/
+models/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
